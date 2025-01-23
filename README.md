@@ -1,54 +1,72 @@
-<h1 align="center">IEEE MegaProject</h1>
-<h3 align="center">Organised by IEEE Student Branch BIT Mesra</h3>
+# INFINITE LOOPS 🚀
 
-# About the Event
-"Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself." – Bill Gates
+## Freelancer Matchmaker: Revolutionizing the Freelancing World 🌟
 
-After seven successful editions, we are here to present you with an opportunity of prototyping your imagination with the IEEE Mega Project.
+*Team Members*  
+- Nishi Panchal  
+- Gaurav Kumar  
+- Nandini Patel  
 
-IEEE Mega Project is a platform to learn and experience the entire process of making a project, from ideation to execution and then it's presentation. It is a platform for students to showcase their innovative ideas in working.
-It's a team-based project building event, where college students collaborate together to bring their ideas to reality.
+*University*  
+Marwadi University, Rajkot, Gujarat  
 
-# Note
-**Note:**
-Ensure that your README file is comprehensive and up-to-date, covering the following mandatory details:
-- Team Details
-- Domain of your project
-- Idea
-- Achievements thus far
-- How to execute your code sample
+---
 
-These are essential details that must be included. You can refer to the `CONTRIBUTION.md` file present in this repository for a template. Copy and customize it according to your project's specifics. Feel free to add more details as needed.
+## Project Domain  
+### *FREELANCER MATCHMAKER*  
+An innovative platform where clients meet the best freelancers based on their requirements. This integrated platform consolidates profiles from various freelancing platforms like *Freelancer, **Fiverr, and **Upwork*, offering comprehensive filter options to ensure the perfect match.
 
-# Timeline
-December 20, 2024 - January 18, 2025
+### *Uniqueness*  
+The *AI Matchmaker Bot*, seamlessly integrated into the website's homepage, takes user input in the form of a detailed paragraph outlining the client's requirements. The bot analyzes the input and identifies the best-matched freelancer, providing an effortless and efficient matching process.
 
-# How to create a Pull Request
-Before you get started, these are the steps that you need to follow only ONCE at the begining:
-- [Fork this repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
-- Go to your forked repository. Notice that the end of the URL should resemble `<your_github_username>/IEEE-Megaproject-24`.
-- Clone your forked repository: Click on the green `Code` button and copy the `HTTPS` URL of the repository.
-    - Now, open `gitbash`(or `Terminal`, if you are on UNIX-system) in the folder where you want to clone the repository, and issue the following command:
-    ```
-    git clone <paste_your_cloned_URL_here>
-    ```
-    - After cloning is done, confirm that a folder named `IEEE-Megaproject-24` is present in your current working directory.
+---
+
+## Code and Live Links  
+- *GitHub Repository for AI Matchmaker:* [https://github.com/nishi1403/chat](https://github.com/nishi1403/chat)  
+- *Live Website:* [https://best-match-freelancer.netlify.app/](https://best-match-freelancer.netlify.app/)  
+- *Live Chatbot (Standalone):* [https://chatbot-13o1.onrender.com](https://chatbot-13o1.onrender.com)  
+
+---
+
+## Features and Achievements  
+
+### *Website*  
+1. Integrated real-time data from platforms like *Upwork, **Freelancer, and **Fiverr*.  
+2. Designed a seamless website flow for intuitive navigation.  
+3. Added advanced filtering options for precise freelancer matching.  
+4. Integrated an *AI Matchmaker Bot* for automated and efficient matches.
+
+### *Chatbot*  
+1. Processes real-time data from freelancing platforms for unmatched accuracy.  
+2. Provides filtering based on freelancer descriptions and skills.  
+
+---
+
+## Ongoing Improvements  
+1. Adding new features to enhance website functionality.  
+2. Fine-tuning chatbot responses for better accuracy and user experience.  
+
+---
+
+## How to Run the Project  
+### Setup .env file
+
+js
+PORT=...
+MONGO_URI=...
+JWT_SECRET=...
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
 
 
-Now, Follow the below steps for submitting each Project:
-- Copy your project folder.
-- Paste it in the local clone of `IEEE-Megaproject-24`(created in the above steps), inside the respective Project folder.
-- Rename your Project folder to your Team name.
-- Now, Right-click and open `gitbash` in the `IEEE-Megaproject-24` folder, and issue the following commands in order:
-```
-git add .
+### Build the app
 
-git commit -m "Your commit message"
+shell
+npm run build
 
-git push -u origin main
-```
-- After pushing your project to github, you need to create a Pull Request to the main IEEE Megaproject repository. For that, open your forked repository in browser, and you'll notice a big green button saying “Compare & pull request”. Press it!
-- This will open a page in which you’ll be able to further edit the description for your proposed changes. Once, you are done with those, you can click on the "Create Pull Request button", and that's it.
- Congratulations, you just made a new Pull request!!! :fire:
 
-For doubts regarding pull requests ping your project coordinators.
+### Start the app
+
+shell
+npm start
